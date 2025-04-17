@@ -46,8 +46,12 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/donetick/donetick/releases/download/v0.1.38/donetick_Linux_arm64.tar.gz"
-    sha256 = "ca9eebb2b18985e01e3434d94550d1428ec83d38dadea23a14ab17972d004a0a"
+    amd64.url = "https://github.com/donetick/donetick/releases/download/v0.1.38/donetick_Linux_x86_64.tar.gz"
+    amd64.sha256 = "55673e5c66d8b1d4b7395f4d678ef51b42d62e63271286030310287716123265"
+    arm64.url = "https://github.com/donetick/donetick/releases/download/v0.1.38/donetick_Linux_arm64.tar.gz"
+    arm64.sha256 = "ca9eebb2b18985e01e3434d94550d1428ec83d38dadea23a14ab17972d004a0a"
+    armhf.url = "https://github.com/donetick/donetick/releases/download/v0.1.38/donetick_Linux_armv7.tar.gz"
+    armhf.sha256 = "7b541fc095bdd2eb970f243908efb02d7fec6626242cf21172a141fb39b894eb"
     in_subdir = false
 
     # autoupdate.strategy = "latest_github_tag"

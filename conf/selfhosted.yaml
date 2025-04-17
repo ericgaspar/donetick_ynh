@@ -25,11 +25,8 @@ server:
   rate_period: 60s
   rate_limit: 300
   cors_allow_origins:
-    - "http://localhost:5173"
-    - "http://localhost:7926"
-    # the below are required for the android app to work
-    - "https://localhost"
-    - "capacitor://localhost"
+    - "https://__DOMAIN__"
+    - "http://127.0.0.1"
   serve_frontend: true
 scheduler_jobs:
   due_job: 30m

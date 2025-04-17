@@ -26,9 +26,9 @@ chmod +x "$install_dir/donetick"
 #=================================================
 # UPDATE A CONFIG FILE
 #=================================================
-ynh_script_progression "Updating $app's configuration files..."
+#ynh_script_progression "Updating $app's configuration files..."
 
-ynh_config_add --template="selfhosted.yaml" --destination="$install_dir/config/selfhosted.yaml"
+#ynh_config_add --template="selfhosted.yaml" --destination="$install_dir/config/selfhosted.yaml"
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATION

@@ -7,26 +7,24 @@ name = "Donetick"
 description.en = "Managing tasks and chores"
 description.fr = "Gestion des tâches et des corvées"
 
-version = "0.1.38~ynh1"
+version = "0.1.80~ynh1"
 
 maintainers = ["eric_G"]
 
 [upstream]
 license = "AGPL-3.0"
 website = "https://donetick.com/"
-demo = "https://demo.example.com"
+demo = "https://app.donetick.com/login"
 admindoc = "https://docs.donetick.com/getting-started/"
-userdoc = "https://yunohost.org/apps"
 code = "https://github.com/donetick/donetick"
 
 [integration]
-yunohost = ">= 12.0.9"
+yunohost = ">= 12.1.40"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
 ldap = false
-
 sso = false
 
 disk = "50M"
@@ -46,12 +44,12 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    amd64.url = "https://github.com/donetick/donetick/releases/download/v0.1.38/donetick_Linux_x86_64.tar.gz"
-    amd64.sha256 = "55673e5c66d8b1d4b7395f4d678ef51b42d62e63271286030310287716123265"
-    arm64.url = "https://github.com/donetick/donetick/releases/download/v0.1.38/donetick_Linux_arm64.tar.gz"
-    arm64.sha256 = "ca9eebb2b18985e01e3434d94550d1428ec83d38dadea23a14ab17972d004a0a"
-    armhf.url = "https://github.com/donetick/donetick/releases/download/v0.1.38/donetick_Linux_armv7.tar.gz"
-    armhf.sha256 = "7b541fc095bdd2eb970f243908efb02d7fec6626242cf21172a141fb39b894eb"
+    amd64.url = "https://github.com/donetick/donetick/releases/download/v0.1.80/donetick_Linux_x86_64.tar.gz"
+    amd64.sha256 = "a843d896dcb370aa6f8e1c7c43b3919852be12e1819ec8995a6bf2af1fcead19"
+    arm64.url = "https://github.com/donetick/donetick/releases/download/v0.1.80/donetick_Linux_arm64.tar.gz"
+    arm64.sha256 = "f953950d40eb381fbc5a6d810ccfcd5c23a7ed8dc21cea1355f2a8bbfc39f581"
+    armhf.url = "https://github.com/donetick/donetick/releases/download/v0.1.80/donetick_Linux_armv7.tar.gz"
+    armhf.sha256 = "123bfa70964255ee012216d09ff790f400eb855b72fcfb85d5630d03f51cc4e4"
     in_subdir = false
 
     # autoupdate.strategy = "latest_github_tag"

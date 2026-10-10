@@ -62,6 +62,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.ports]
+    main.default = 2021
 
     [resources.apt]
     packages = "postgresql"
